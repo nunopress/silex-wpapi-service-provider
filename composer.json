@@ -1,0 +1,20 @@
+{
+  "name": "nunopress/silex-wpapi-serviceprovider",
+  "description": "Silex WordPress API Service Provider",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "NunoPress LLC",
+      "email": "hello@nunopress.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "NunoPress\\WpApiServiceProvider\\": "src/"
+    }
+  }
+}
