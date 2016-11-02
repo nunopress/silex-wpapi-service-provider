@@ -124,7 +124,7 @@ class WpApi
         } else {
             $data = $this->request('GET', sprintf(
                 '%s/%s/%d',
-                'acf/v2',
+                'wp-json/acf/v2',
                 $type,
                 $id
             ));
