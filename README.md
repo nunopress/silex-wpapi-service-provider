@@ -19,7 +19,7 @@ You can configure this items inside the container:
 With default the service provider use GuzzleHttp client, but you can use what you want, you need to implement our `NunoPress\Silex\WpApi\WpApiClientInterface`.
 
 ### wpapi.client.option
-If you use our client you can pass GuzzleHttp options here, most userful for the `base_uri` instead to use all times the full uri or for the authentication.
+If you use our client you can pass GuzzleHttp options here, most useful for the `base_uri` instead to use all times the full uri or for the authentication.
 
 # Usage
 This is our interface for get default WordPress API endpoint's and we added one method for call the Advanced Custom Fields API (_you need a WordPress plugin ACF Rest API_).

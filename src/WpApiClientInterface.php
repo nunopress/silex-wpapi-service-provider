@@ -5,6 +5,11 @@ namespace NunoPress\Silex\WpApi;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\UriInterface;
 
+/**
+ * Interface WpApiClientInterface
+ *
+ * @package NunoPress\Silex\WpApi
+ */
 interface WpApiClientInterface
 {
     /**
