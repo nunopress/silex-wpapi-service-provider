@@ -1,11 +1,11 @@
 <?php
 
-namespace NunoPress\WpApiServiceProvider;
+namespace NunoPress\Silex\WpApi;
 
 /**
  * Class WpApi
  *
- * @package NunoPress\WpApiServiceProvider
+ * @package NunoPress\Silex\WpApi
  */
 class WpApi
 {

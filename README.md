@@ -9,14 +9,14 @@ You can simply install with composer:
 In your Silex application register the service provider:
 
 ```php
-$app->register(new NunoPress\WpApiServiceProvider());
+$app->register(new NunoPress\Silex\WpApi\Provider\WpApiServiceProvider());
 ```
 
 # Configuration
 You can configure this items inside the container:
 
 ### wpapi.client
-With default the service provider use GuzzleHttp client, but you can use what you want, you need to implement our `NunoPress\WpApiServiceProvider\WpApiClientInterface`.
+With default the service provider use GuzzleHttp client, but you can use what you want, you need to implement our `NunoPress\Silex\WpApi\WpApiClientInterface`.
 
 ### wpapi.client.option
 If you use our client you can pass GuzzleHttp options here, most userful for the `base_uri` instead to use all times the full uri or for the authentication.
