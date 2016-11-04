@@ -4,7 +4,7 @@ This is a Service Provider for Silex and added the access to WordPress API websi
 # Installation
 You can simply install with composer:
 
-`composer require nunopress/silex-wpapi-serviceprovider`
+`composer require nunopress/silex-wpapi-service-provider`
 
 In your Silex application register the service provider:
 

@@ -1,5 +1,5 @@
 {
-  "name": "nunopress/silex-wpapi-serviceprovider",
+  "name": "nunopress/silex-wpapi-service-provider",
   "description": "Silex WordPress API Service Provider",
   "type": "library",
   "license": "MIT",
