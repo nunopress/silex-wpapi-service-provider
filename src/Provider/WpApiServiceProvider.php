@@ -10,7 +10,7 @@ use Pimple\ServiceProviderInterface;
 /**
  * Class WpApiServiceProvider
  *
- * @package NunoPress\WpApi\Provider
+ * @package NunoPress\Silex\WpApi\Provider
  */
 class WpApiServiceProvider implements ServiceProviderInterface
 {
